@@ -5,7 +5,7 @@ B.Tech CSE - Semester 5
 
 University: Marwadi University
 
-Practicals
+>Practicals
 Practical 1 - Student Admission Management System
 Practical 2 - Employee Payroll System
 Practical 3 - Expense Tracking Module
