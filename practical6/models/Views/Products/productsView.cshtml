@@ -1,0 +1,37 @@
+@model List<Practical_06_Product_Catalog_MVC.Models.Products>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>productsView</title>
+</head>
+<body>
+    <div>
+        <h2>Products Catalog</h2>
+    </div>
+    <table border="1">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Price</th>
+            <th>Description</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.pID</td>
+                <td>@item.pName</td>
+                <td>@item.pCategory</td>
+                <td>@item.pPrice</td>
+                <td>@item.pDescription</td>
+            </tr>
+        }
+    </table>
+</body>
+</html>
